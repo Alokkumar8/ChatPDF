@@ -17,12 +17,11 @@ class Sidebar:
     def about():
         about = st.sidebar.expander("About 🤖")
         sections = [
-            "#### ChatPDF is an AI chatbot featuring conversational memory, designed to enable users to discuss their "
-            "PDF data in a more intuitive manner. 📄",
-            "#### Powered by [Langchain](https://github.com/hwchase17/langchain), [OpenAI]("
-            "https://platform.openai.com/docs/models/gpt-3-5) and [Streamlit](https://github.com/streamlit/streamlit) "
+            "#### Chat PDF is an AI chatbot built using assistant api",
+            "#### Powered by [Assistant API](https://platform.openai.com/docs/assistants/tools/knowledge-retrieval?lang=node.js), [OpenAI]("
+            "and [Chat PDF](https://chatpdf.so) tool"
             "⚡",
-            "#### Source code : [Ubisoft-potato/ChatPDF](https://github.com/Ubisoft-potato/ChatPDF)",
+            "#### Source code : [Alokkumar8/ChatPDF](https://github.com/Alokkumar8/ChatPDF)",
         ]
         for section in sections:
             about.write(section)
